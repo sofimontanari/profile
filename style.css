@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(248, 247, 247);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+}
+
+h1 {
+  color: rgb(144, 117, 165);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+h2 {
+  color: rgb(100, 75, 94);
+  font-family:'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 35px;
+}
+
+a {
+  color: rgb(90, 128, 158);
+  font-family: 'Roboto', sans-serif ;
+  font-weight: 500;
+  text-decoration: none;
+
+}
+
+.fa-instagram {
+  color: rgb(240, 16, 53);
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-white {
+  background-color: rgb(253, 252, 252);
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  padding: 40px;
+  box-shadow: 0px 15px 20px rgb(200, 200, 200);
+  margin: 40px 0px ;
+}
+
+.btn-light-blue {
+  background-color: rgb(90, 128, 158);
+  color: white;
+  font-family: 'Roboto', sans-serif ;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 15px 20px rgb(200, 200, 200);
+  border: 1px solid rgb(29, 59, 82);
+}
+
+.btn-light-blue:hover {
+  background-color: rgb(21, 94, 81);
+  cursor: pointer;
+}
+
+.list-transparent {
+  list-style: none;
+}
+
+.list-transparent li {
+  display: inline;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.list-transparent li:hover {
+  background-color: rgba(10, 10, 10, 0.103);
+  cursor: pointer;
+}
